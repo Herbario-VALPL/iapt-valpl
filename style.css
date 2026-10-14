@@ -17,14 +17,15 @@ footer{padding:36px 5.5vw 18px;border-top:1px solid var(--line);display:grid;gri
 @media(max-width:780px){.header{height:auto;min-height:68px;flex-wrap:wrap;padding:15px 5vw}.brand{width:126px}.header nav{order:3;width:100%;overflow-x:auto;justify-content:flex-start}.header nav a{padding:8px 0;white-space:nowrap}.hero{grid-template-columns:1fr}.hero-visual{min-height:450px;order:-1}.hero-copy{padding:58px 7vw}.two-col{grid-template-columns:1fr;padding-left:0;gap:35px}.wide{padding-left:0}.section{padding:65px 7vw}.section-number{position:static;margin-bottom:16px}.foundation-grid,.stage-grid,.challenge-grid,.data-cards,.output-grid,.update-types{grid-template-columns:1fr}.journey-row{grid-template-columns:1fr;gap:4px}.update-feature{grid-template-columns:1fr}.update-image{min-height:340px}.funding{grid-template-columns:1fr;padding:50px 7vw}.iapt-logo-link{justify-content:flex-start;padding:0}.iapt-logo{width:165px}.footer-links{justify-content:flex-start}.footer-brand img{width:100px}footer{grid-template-columns:1fr 1.5fr;gap:24px}.footer-links{grid-column:1/-1;justify-content:flex-start}.footer-bottom{grid-column:1/-1}}
 @media(max-width:520px){.collection-grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.hero-note{right:15px;top:15px}.hero-panel-b{clip-path:polygon(42% 0,100% 0,100% 100%,25% 100%)}h1{font-size:3.2rem}.update-copy{padding:25px}}
 
-/* Team section — preserved from v3 */
+/* Team section */
 .team{display:grid;grid-template-columns:repeat(6,1fr);gap:9px;margin-top:35px}.team article{min-width:0}.portrait{height:190px}.team b,.team small{display:block}.team b{font-size:.75rem;margin-top:8px}.team small{font-size:.58rem;color:#666}.students{background:var(--pale);padding:20px 14px;display:flex;flex-direction:column;justify-content:center}
 .students strong{color:var(--cyan);font-size:3.5rem;line-height:1}
+.student-names {display: flex;flex-direction: column; gap: 4px; margin: 12px 0;text-align: left;font-size: 0.68rem;line-height: 1.4;font-weight: 400;}
 .team-intro{max-width:720px;color:#555;font-size:.86rem;margin:0 0 28px}
 @media(max-width:1000px){.team{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:720px){.team{grid-template-columns:repeat(2,1fr)}}
 
-/* V10 — photograph sizing: botanical sheets are displayed fully, never cropped. */
+/* Photograph sizing: botanical sheets are displayed fully, never cropped. */
 .hero{min-height:560px}
 .hero-visual{min-height:560px}
 .hero-panel-a{background-position:40% center}
